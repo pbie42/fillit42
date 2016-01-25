@@ -6,7 +6,7 @@
 /*   By: pbie <marvin@42.fr>                        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/12/09 21:41:55 by pbie              #+#    #+#             */
-/*   Updated: 2016/01/22 16:27:27 by pkerckho         ###   ########.fr       */
+/*   Updated: 2016/01/25 17:37:02 by pbie             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -66,6 +66,7 @@ char			**ft_newboardfiller(char **board, char **newboard);
 char			**ft_thenewalgo(t_piece *structtab, int sz, int boardsize);
 int				ft_structsizer(char **bt);
 char			**ft_tettotab(t_piece piece, char **resize);
+void			ft_spacecheck(char *dest);
 t_piece			ft_resetx(t_piece phold, t_piece stab);
 t_piece			ft_ystructtoboard(t_piece piece, char **resize, t_piece stab);
 t_piece			ft_xstructtoboard(t_piece piece, char **resize);
