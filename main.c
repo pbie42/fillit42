@@ -6,7 +6,7 @@
 /*   By: pbie <marvin@42.fr>                        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/12/10 17:45:36 by pbie              #+#    #+#             */
-/*   Updated: 2016/01/25 17:37:39 by pbie             ###   ########.fr       */
+/*   Updated: 2016/01/26 18:12:10 by pbie             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,7 +30,7 @@ int			main(int ac, char **argv)
 	if (ft_tablen(bufftable) > 104)
 		ft_exit("error");
 	c = 0;
-	goodtable = ft_filereader("goodpieces", &c);
+	goodtable = ft_goodpieces(5);
 	if (ft_shitcmp(bufftable, goodtable) == 1)
 		ft_board(bufftable);
 	else

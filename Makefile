@@ -6,7 +6,7 @@
 #    By: pkerckho <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2016/01/15 11:55:43 by pkerckho          #+#    #+#              #
-#    Updated: 2016/01/22 16:59:12 by pbie             ###   ########.fr        #
+#    Updated: 2016/01/26 18:12:40 by pbie             ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -52,6 +52,7 @@ SOURCES = ft_putstr.c\
 		  ft_read.c\
 		  ft_structer.c\
 		  ft_exit.c\
+		  ft_goodpieces.c\
 
 
 SRC = $(addprefix sources/,$(SOURCES))

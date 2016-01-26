@@ -6,7 +6,7 @@
 /*   By: pbie <marvin@42.fr>                        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/12/09 21:41:55 by pbie              #+#    #+#             */
-/*   Updated: 2016/01/25 17:37:02 by pbie             ###   ########.fr       */
+/*   Updated: 2016/01/26 18:12:06 by pbie             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -73,5 +73,9 @@ t_piece			ft_xstructtoboard(t_piece piece, char **resize);
 t_piece			ft_onestructcopy(t_piece piece, t_piece piececopy);
 t_piece			ft_structxcopy(t_piece piece, t_piece piececopy);
 t_piece			*ft_structtcpy(t_piece *structtab, t_piece *structcopy, int sz);
+char			*ft_gp1(int bs);
+char			*ft_gp2(int bs);
+char			*ft_gp3(int bs);
+char			**ft_goodpieces(int size);
 
 #endif
